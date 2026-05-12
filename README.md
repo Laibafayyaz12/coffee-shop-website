@@ -67,41 +67,98 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## ROLL NO : COSC231101014
 ## NAME : LAIBA FAYYAZ
 ## DEMO VIDEO LINK :https://drive.google.com/file/d/1rR3mOwJ-7zyNDEpGVwxn6q-k_U8EbPK7/view?usp=drivesdk
-## 🚀 Installation Guide
-## Prerequisites
-PHP >= 8.1
+📋 Project Description
+Brew Haven is a fully functional e-commerce website for a premium coffee shop. This project provides a complete online platform where customers can browse coffee products, add items to cart, place orders, and contact the shop. The admin panel allows managing products, orders, customers, and contact messages.
 
-## Composer
+✨ Features
+🏠 Frontend Features
+Home Page with Hero Banner
 
-## MySQL
+Products Listing with Categories
 
-Node.js & NPM
-┌─────────────────────────────────────────────────────────────────┐
-│                         BREW HAVEN COFFEE                        │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
-│  │  Frontend    │    │   Backend    │    │  Database    │       │
-│  ├──────────────┤    ├──────────────┤    ├──────────────┤       │
-│  │ • Home Page  │    │ • Laravel    │    │ • MySQL      │       │
-│  │ • Products   │◄──►│ • PHP 8.1    │◄──►│ • Products   │       │
-│  │ • Cart       │    │ • API Routes │    │ • Orders     │       │
-│  │ • Checkout   │    │ • Middleware │    │ • Users      │       │
-│  │ • Contact    │    │ • Auth       │    │ • Contacts   │       │
-│  └──────────────┘    └──────────────┘    └──────────────┘       │
-│         │                   │                   │               │
-│         ▼                   ▼                   ▼               │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
-│  │   Bootstrap  │    │  Yajra      │    │   Session    │       │
-│  │   jQuery     │    │  DataTables │    │   Cart       │       │
-│  │   FontAwesome│    │  Intervention│   │              │       │
-│  └──────────────┘    └──────────────┘    └──────────────┘       │
-│                                                                  │
-├─────────────────────────────────────────────────────────────────┤
-│                      ADMIN PANEL                                 │
-├─────────────────────────────────────────────────────────────────┤
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐         │
-│  │Products  │  │ Orders   │  │Customers │  │ Contacts │         │
-│  │Management│  │Management│  │Management│  │Management│         │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘         │
-└─────────────────────────────────────────────────────────────────┘
+Single Product Details View
+
+Shopping Cart (Add/Remove/Update)
+
+Secure Checkout System
+
+Contact Form (Login Required)
+
+User Authentication (Login/Register)
+
+🔧 Admin Panel Features
+Dashboard with Statistics
+
+Product Management (CRUD with Images)
+
+Order Management with Status Updates
+
+Customer Management
+
+Contact Message Management with Reply System
+
+💻 Technical Features
+Yajra DataTables Integration
+
+Session-based Shopping Cart
+
+MySQL Database with Relationships
+
+Responsive Bootstrap 5 Design
+
+Secure Admin Middleware
+📁 Project Structure
+text
+coffee-shop/
+│
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── Frontend/
+│   │   │   │   ├── HomeController.php
+│   │   │   │   ├── ProductController.php
+│   │   │   │   ├── CartController.php
+│   │   │   │   ├── CheckoutController.php
+│   │   │   │   └── ContactController.php
+│   │   │   └── Admin/
+│   │   │       ├── DashboardController.php
+│   │   │       └── ProductController.php
+│   │   └── Middleware/
+│   │
+│   └── Models/
+│       ├── Product.php
+│       ├── Order.php
+│       ├── OrderItem.php
+│       └── Contact.php
+│
+├── database/
+│   ├── migrations/
+│   └── seeders/
+│
+├── resources/
+│   └── views/
+│       ├── layouts/
+│       │   └── app.blade.php
+│       ├── frontend/
+│       │   ├── home.blade.php
+│       │   ├── products.blade.php
+│       │   ├── product-detail.blade.php
+│       │   ├── cart.blade.php
+│       │   ├── checkout.blade.php
+│       │   └── contact.blade.php
+│       └── admin/
+│           ├── dashboard.blade.php
+│           ├── products.blade.php
+│           ├── orders.blade.php
+│           ├── contacts.blade.php
+│           └── customers.blade.php
+│
+├── public/
+│   └── images/
+│       └── coffee-images/
+│
+├── routes/
+│   └── web.php
+│
+├── .env
+└── README.md
