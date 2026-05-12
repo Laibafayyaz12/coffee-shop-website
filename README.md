@@ -64,3 +64,44 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## ROLL NO : COSC231101014
+## NAME : LAIBA FAYYAZ
+## DEMO VIDEO LINK :https://drive.google.com/file/d/1rR3mOwJ-7zyNDEpGVwxn6q-k_U8EbPK7/view?usp=drivesdk
+## 🚀 Installation Guide
+## Prerequisites
+PHP >= 8.1
+
+## Composer
+
+## MySQL
+
+Node.js & NPM
+┌─────────────────────────────────────────────────────────────────┐
+│                         BREW HAVEN COFFEE                        │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
+│  │  Frontend    │    │   Backend    │    │  Database    │       │
+│  ├──────────────┤    ├──────────────┤    ├──────────────┤       │
+│  │ • Home Page  │    │ • Laravel    │    │ • MySQL      │       │
+│  │ • Products   │◄──►│ • PHP 8.1    │◄──►│ • Products   │       │
+│  │ • Cart       │    │ • API Routes │    │ • Orders     │       │
+│  │ • Checkout   │    │ • Middleware │    │ • Users      │       │
+│  │ • Contact    │    │ • Auth       │    │ • Contacts   │       │
+│  └──────────────┘    └──────────────┘    └──────────────┘       │
+│         │                   │                   │               │
+│         ▼                   ▼                   ▼               │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
+│  │   Bootstrap  │    │  Yajra      │    │   Session    │       │
+│  │   jQuery     │    │  DataTables │    │   Cart       │       │
+│  │   FontAwesome│    │  Intervention│   │              │       │
+│  └──────────────┘    └──────────────┘    └──────────────┘       │
+│                                                                  │
+├─────────────────────────────────────────────────────────────────┤
+│                      ADMIN PANEL                                 │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐         │
+│  │Products  │  │ Orders   │  │Customers │  │ Contacts │         │
+│  │Management│  │Management│  │Management│  │Management│         │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘         │
+└─────────────────────────────────────────────────────────────────┘
