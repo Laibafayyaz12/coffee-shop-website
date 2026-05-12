@@ -67,10 +67,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## ROLL NO : COSC231101014
 ## NAME : LAIBA FAYYAZ
 ## DEMO VIDEO LINK :https://drive.google.com/file/d/1rR3mOwJ-7zyNDEpGVwxn6q-k_U8EbPK7/view?usp=drivesdk
-📋 Project Description
+## 📋 Project Description
 Brew Haven is a fully functional e-commerce website for a premium coffee shop. This project provides a complete online platform where customers can browse coffee products, add items to cart, place orders, and contact the shop. The admin panel allows managing products, orders, customers, and contact messages.
 
-✨ Features
+## ✨ Features
 🏠 Frontend Features
 Home Page with Hero Banner
 
@@ -86,7 +86,7 @@ Contact Form (Login Required)
 
 User Authentication (Login/Register)
 
-🔧 Admin Panel Features
+## 🔧 Admin Panel Features
 Dashboard with Statistics
 
 Product Management (CRUD with Images)
@@ -97,7 +97,7 @@ Customer Management
 
 Contact Message Management with Reply System
 
-💻 Technical Features
+## 💻 Technical Features
 Yajra DataTables Integration
 
 Session-based Shopping Cart
