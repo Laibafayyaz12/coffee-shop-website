@@ -103,7 +103,7 @@ http://127.0.0.1:8000
 
 ## 📁 Complete File Structure
 
-project-root/
+## project-root/
 │
 ├── app/
 │   ├── Http/
