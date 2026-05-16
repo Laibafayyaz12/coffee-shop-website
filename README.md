@@ -189,7 +189,7 @@ http://127.0.0.1:8000
 │
 ├── .env
 ├── composer.json
-└── artisan
+└── artisan ``
 
 ## ✨ Features
 🛍️ Customer Features
