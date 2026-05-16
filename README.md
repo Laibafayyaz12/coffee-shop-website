@@ -165,8 +165,8 @@ coffee-shop/
 ├── 📄 .env.example
 ├── 📄 composer.json
 ├── 📄 package.json
-└── 📄 README.md  ``
-
+└── 📄 README.md  
+``
 ## ✨ Features
 🛍️ Customer Features
 
