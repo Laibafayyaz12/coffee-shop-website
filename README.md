@@ -103,93 +103,69 @@ http://127.0.0.1:8000
 
 ## 📁 Complete File Structure
 
-## project-root/
+coffee-shop/
 │
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   │   ├── Frontend/
-│   │   │   │   ├── HomeController.php
-│   │   │   │   ├── ProductController.php
-│   │   │   │   ├── CartController.php
-│   │   │   │   ├── CheckoutController.php
-│   │   │   │   └── ContactController.php
-│   │   │   │
-│   │   │   ├── Admin/
-│   │   │   │   ├── DashboardController.php
-│   │   │   │   ├── ProductController.php
-│   │   │   │   ├── OrderController.php
-│   │   │   │   ├── UserController.php
-│   │   │   │   └── ContactController.php
-│   │   │
-│   │   └── Middleware/
-│   │       └── AdminMiddleware.php
+├── 📁 app/
+│   ├── 📁 Http/
+│   │   ├── 📁 Controllers/
+│   │   │   ├── 📁 Frontend/
+│   │   │   │   ├── 📄 HomeController.php
+│   │   │   │   ├── 📄 ProductController.php
+│   │   │   │   ├── 📄 CartController.php
+│   │   │   │   ├── 📄 CheckoutController.php
+│   │   │   │   └── 📄 ContactController.php
+│   │   │   └── 📁 Admin/
+│   │   │       ├── 📄 DashboardController.php
+│   │   │       └── 📄 ProductController.php
+│   │   └── 📁 Middleware/
+│   │       └── 📄 AdminMiddleware.php
 │   │
-│   ├── Models/
-│   │   ├── Product.php
-│   │   ├── Order.php
-│   │   ├── OrderItem.php
-│   │   ├── Contact.php
-│   │   └── User.php
+│   └── 📁 Models/
+│       ├── 📄 Product.php
+│       ├── 📄 Order.php
+│       ├── 📄 OrderItem.php
+│       └── 📄 Contact.php
 │
-├── database/
-│   ├── migrations/
-│   │   ├── 2024_01_01_create_products_table.php
-│   │   ├── 2024_01_02_create_orders_table.php
-│   │   ├── 2024_01_03_create_order_items_table.php
-│   │   ├── 2024_01_04_create_contacts_table.php
-│   │   └── 2024_01_05_add_is_admin_to_users_table.php
-│   │
-│   └── seeders/
-│       ├── DatabaseSeeder.php
-│       └── ProductSeeder.php
+├── 📁 database/
+│   ├── 📁 migrations/
+│   │   ├── 📄 create_products_table.php
+│   │   ├── 📄 create_orders_table.php
+│   │   ├── 📄 create_order_items_table.php
+│   │   └── 📄 create_contacts_table.php
+│   └── 📁 seeders/
+│       ├── 📄 ProductSeeder.php
+│       └── 📄 AdminSeeder.php
 │
-├── routes/
-│   └── web.php
+├── 📁 resources/
+│   └── 📁 views/
+│       ├── 📁 layouts/
+│       │   └── 📄 app.blade.php
+│       ├── 📁 frontend/
+│       │   ├── 📄 home.blade.php
+│       │   ├── 📄 products.blade.php
+│       │   ├── 📄 product-detail.blade.php
+│       │   ├── 📄 cart.blade.php
+│       │   ├── 📄 checkout.blade.php
+│       │   └── 📄 contact.blade.php
+│       └── 📁 admin/
+│           ├── 📄 dashboard.blade.php
+│           ├── 📄 products.blade.php
+│           ├── 📄 orders.blade.php
+│           ├── 📄 contacts.blade.php
+│           └── 📄 customers.blade.php
 │
-├── resources/
-│   └── views/
-│       ├── layouts/
-│       │   ├── app.blade.php
-│       │   └── admin.blade.php
-│       │
-│       ├── frontend/
-│       │   ├── home.blade.php
-│       │   ├── products.blade.php
-│       │   ├── product-single.blade.php
-│       │   ├── cart.blade.php
-│       │   ├── checkout.blade.php
-│       │   └── contact.blade.php
-│       │
-│       └── admin/
-│           ├── dashboard.blade.php
-│           │
-│           ├── products/
-│           │   ├── index.blade.php
-│           │   ├── create.blade.php
-│           │   └── edit.blade.php
-│           │
-│           ├── orders/
-│           │   ├── index.blade.php
-│           │   └── show.blade.php
-│           │
-│           ├── users/
-│           │   └── index.blade.php
-│           │
-│           ├── admins/
-│           │   └── index.blade.php
-│           │
-│           └── contacts/
-│               └── index.blade.php
+├── 📁 public/
+│   ├── 📁 images/
+│   │   └── 📁 coffee-images/
+│   └── 📄 index.php
 │
-├── public/
-│   ├── css/
-│   ├── js/
-│   └── images/
+├── 📁 routes/
+│   └── 📄 web.php
 │
-├── .env
-├── composer.json
-└── artisan ``
+├── 📄 .env.example
+├── 📄 composer.json
+├── 📄 package.json
+└── 📄 README.md
 
 ## ✨ Features
 🛍️ Customer Features
