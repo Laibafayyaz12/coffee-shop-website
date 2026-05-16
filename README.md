@@ -193,6 +193,7 @@ project-root/
 
 ## ✨ Features
 🛍️ Customer Features
+
 ✅ Beautiful Home Page with Hero Section
 
 ✅ Product Listing with Search & Category Filter
@@ -232,5 +233,7 @@ project-root/
 
 ## AUTHOR
 NAME :LAIBA FAYYAZ
+
 ROLL NO : COSC231101014
+
 ## DEMO VIDEO LINK :https://drive.google.com/file/d/1rR3mOwJ-7zyNDEpGVwxn6q-k_U8EbPK7/view?usp=drivesdk
