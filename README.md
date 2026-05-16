@@ -310,52 +310,6 @@ php artisan serve
 
 
 
-## ✨ Features
-🛍️ Customer Features
-
-✅ Beautiful Home Page with Hero Section
-
-✅ Product Listing with Search & Category Filter
-
-✅ Sidebar with Category Navigation
-
-✅ Single Product View with Related Products
-
-✅ Shopping Cart (Session Based)
-
-✅ Checkout & Order Placement
-
-✅ My Orders Page (Track Orders)
-
-✅ Contact Form with Email Notification
-
-✅ User Registration & Login
-
-✅ Responsive Design (Mobile Friendly)
-
-## 🔐 Admin Features
-✅ Admin Dashboard with Live Stats
-
-✅ Products Management (Add, Edit, Delete, Image Upload)
-
-✅ Orders Management with Status Update
-
-✅ Users Management
-
-✅ DataTables Integration (Search, Sort, Pagination)
-
-✅ Admin Sidebar Navigation
-
-✅ Revenue Tracking
-
-✅ Recent Orders on Dashboard
-
-## AUTHOR
-NAME :LAIBA FAYYAZ
-
-ROLL NO : COSC231101014
-
-## DEMO VIDEO LINK : https://drive.google.com/file/d/1rR3mOwJ-7zyNDEpGVwxn6q-k_U8EbPK7/view?usp=drivesdk
 
 
 DEMO VIDEO LINK : https://drive.google.com/file/d/1rR3mOwJ-7zyNDEpGVwxn6q-k_U8EbPK7/view?usp=drivesdk
