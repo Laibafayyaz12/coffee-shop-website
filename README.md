@@ -103,7 +103,7 @@ http://127.0.0.1:8000
 
 ## 📁 Complete File Structure
 
-coffee-shop/
+ ``coffee-shop/
 │
 ├── 📁 app/
 │   ├── 📁 Http/
@@ -165,7 +165,7 @@ coffee-shop/
 ├── 📄 .env.example
 ├── 📄 composer.json
 ├── 📄 package.json
-└── 📄 README.md  
+└── 📄 README.md  ``
 
 ## ✨ Features
 🛍️ Customer Features
