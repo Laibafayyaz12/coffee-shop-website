@@ -103,69 +103,210 @@ http://127.0.0.1:8000
 
 ## 📁 Complete File Structure
 
+# 📁 Complete File Structure
+
+<pre>
 coffee-shop/
-│
 ├── app/
-│ ├── Http/
-│ │ ├── Controllers/
-│ │ │ ├── Frontend/
-│ │ │ │ ├── HomeController.php
-│ │ │ │ ├── ProductController.php
-│ │ │ │ ├── CartController.php
-│ │ │ │ ├── CheckoutController.php
-│ │ │ │ └── ContactController.php
-│ │ │ └── Admin/
-│ │ │ ├── DashboardController.php
-│ │ │ └── ProductController.php
-│ │ └── Middleware/
-│ │ └── AdminMiddleware.php
-│ │
-│ └── Models/
-│ ├── Product.php
-│ ├── Order.php
-│ ├── OrderItem.php
-│ └── Contact.php
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── Frontend/
+│   │   │   │   ├── HomeController.php
+│   │   │   │   ├── ProductController.php
+│   │   │   │   ├── CartController.php
+│   │   │   │   ├── CheckoutController.php
+│   │   │   │   └── ContactController.php
+│   │   │   └── Admin/
+│   │   │       ├── DashboardController.php
+│   │   │       └── ProductController.php
+│   │   └── Middleware/
+│   │       └── AdminMiddleware.php
+│   └── Models/
+│       ├── Product.php
+│       ├── Order.php
+│       ├── OrderItem.php
+│       └── Contact.php
 │
 ├── database/
-│ ├── migrations/
-│ │ ├── create_products_table.php
-│ │ ├── create_orders_table.php
-│ │ ├── create_order_items_table.php
-│ │ └── create_contacts_table.php
-│ └── seeders/
-│ ├── ProductSeeder.php
-│ └── AdminSeeder.php
+│   ├── migrations/
+│   │   ├── create_products_table.php
+│   │   ├── create_orders_table.php
+│   │   ├── create_order_items_table.php
+│   │   └── create_contacts_table.php
+│   └── seeders/
+│       ├── ProductSeeder.php
+│       └── AdminSeeder.php
 │
 ├── resources/
-│ └── views/
-│ ├── layouts/
-│ │ └── app.blade.php
-│ ├── frontend/
-│ │ ├── home.blade.php
-│ │ ├── products.blade.php
-│ │ ├── product-detail.blade.php
-│ │ ├── cart.blade.php
-│ │ ├── checkout.blade.php
-│ │ └── contact.blade.php
-│ └── admin/
-│ ├── dashboard.blade.php
-│ ├── products.blade.php
-│ ├── orders.blade.php
-│ ├── contacts.blade.php
-│ └── customers.blade.php
+│   └── views/
+│       ├── layouts/
+│       │   └── app.blade.php
+│       ├── frontend/
+│       │   ├── home.blade.php
+│       │   ├── products.blade.php
+│       │   ├── product-detail.blade.php
+│       │   ├── cart.blade.php
+│       │   ├── checkout.blade.php
+│       │   └── contact.blade.php
+│       └── admin/
+│           ├── dashboard.blade.php
+│           ├── products.blade.php
+│           ├── orders.blade.php
+│           ├── contacts.blade.php
+│           └── customers.blade.php
 │
 ├── public/
-│ ├── images/
-│ │ └── coffee-images/
-│ └── index.php
+│   ├── images/
+│   │   └── coffee-images/
+│   └── index.php
 │
 ├── routes/
-│ └── web.php
+│   └── web.php
 │
 ├── .env.example
 ├── composer.json
 ├── package.json
 └── README.md
+</pre>
+
+---
+
+# ✨ Features
+
+## 🏠 Frontend Features
+- Home Page with Hero Banner
+- Products Listing with Categories
+- Single Product Details View
+- Shopping Cart (Add/Remove/Update)
+- Secure Checkout System
+- Contact Form (Login Required)
+- User Authentication (Login/Register)
+
+## 🔧 Admin Panel Features
+- Dashboard with Statistics
+- Product CRUD with Images
+- Order Management with Status Updates
+- Customer Management
+- Contact Message Management with Reply System
+
+## 💻 Technical Features
+- Yajra DataTables Integration
+- Session-based Shopping Cart
+- MySQL Database Relationships
+- Admin Middleware Security
+- Image Upload Functionality
+- AJAX Cart Operations
+
+---
+
+# 🛠️ Technology Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Frontend | HTML5, CSS3, JavaScript, Bootstrap 5, jQuery, AJAX |
+| Backend | Laravel 10.50, PHP 8.1.25 |
+| Database | MySQL 8.0+ |
+| Packages | Yajra DataTables, Intervention Image, Laravel UI |
+
+---
+
+# 🗄️ Database Tables
+
+| Table | Columns |
+|-------|---------|
+| users | id, name, email, password, is_admin, timestamps |
+| products | id, name, slug, description, price, sale_price, image, category, stock, is_active |
+| orders | id, user_id, order_number, total_amount, status, payment_method, shipping_address, city, postal_code, phone |
+| order_items | id, order_id, product_id, quantity, price |
+| contacts | id, user_id, subject, message, reply, is_replied |
+
+---
+
+# 🔗 Table Relationships
+
+- users (1) → has many → orders (many)
+- users (1) → has many → contacts (many)
+- orders (1) → has many → order_items (many)
+- products (1) → has many → order_items (many)
+
+---
+
+# 📱 User Flow
+
+| Step | Action |
+|------|--------|
+| 1 | Visit Website |
+| 2 | Browse Products |
+| 3 | Add to Cart |
+| 4 | View Cart (Update/Remove) |
+| 5 | Proceed to Checkout |
+| 6 | Login/Register |
+| 7 | Fill Order Details |
+| 8 | Select Payment Method |
+| 9 | Place Order |
+| 10 | Order Confirmed |
+
+---
+
+# 👑 Admin Flow
+
+| Step | Action |
+|------|--------|
+| 1 | Login as Admin |
+| 2 | View Dashboard Stats |
+| 3 | Manage Products (Add/Edit/Delete) |
+| 4 | Manage Orders (Update Status) |
+| 5 | View Customers |
+| 6 | Manage Contacts (Reply to Messages) |
+
+---
+
+# 📊 API Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | / | Home Page |
+| GET | /products | Products List |
+| GET | /product/{slug} | Product Details |
+| POST | /cart/add | Add to Cart |
+| POST | /cart/update | Update Cart |
+| POST | /cart/remove | Remove from Cart |
+| GET | /checkout | Checkout Page |
+| POST | /checkout | Place Order |
+| GET | /admin | Admin Dashboard |
+| GET | /admin/products-data | Products DataTable |
+| GET | /admin/orders-data | Orders DataTable |
+| POST | /admin/update-order-status | Update Order Status |
+| POST | /admin/reply-contact | Reply to Contact |
+
+---
+
+# 🚀 Installation Commands
+
+```bash
+# 1. Install PHP dependencies
+composer install
+
+# 2. Install NPM dependencies
+npm install
+
+# 3. Create environment file
+cp .env.example .env
+
+# 4. Generate application key
+php artisan key:generate
+
+# 5. Run migrations and seeders
+php artisan migrate --seed
+
+# 6. Create storage link
+php artisan storage:link
+
+# 7. Build frontend assets
+npm run build
+
+# 8. Start development server
+php artisan serve
 
 
 
