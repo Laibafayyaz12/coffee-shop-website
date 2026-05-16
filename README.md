@@ -283,7 +283,7 @@ coffee-shop/
 
 # 🚀 Installation Commands
 
-```bash
+
 # 1. Install PHP dependencies
 composer install
 
