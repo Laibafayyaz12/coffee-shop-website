@@ -102,7 +102,7 @@ php artisan serve
 http://127.0.0.1:8000
 
 ## 📁 Complete File Structure
-``
+
 coffee-shop/
 │
 ├── 📁 app/
@@ -166,7 +166,7 @@ coffee-shop/
 ├── 📄 composer.json
 ├── 📄 package.json
 └── 📄 README.md  
-``
+
 ## ✨ Features
 🛍️ Customer Features
 
